@@ -19,6 +19,7 @@ const MuiIcon = ({ styles, src, alt, width, height, onClick }: MuiIconProps) => 
         height={height}
         onClick={onClick}
         style={styles}
+        
       />
     </>
   );

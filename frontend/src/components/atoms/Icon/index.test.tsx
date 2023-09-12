@@ -13,9 +13,11 @@ describe("Icon component", () => {
     const imageElement = screen.getByRole("img");
 
     expect(imageElement).toBeInTheDocument();
+    
     expect(imageElement).toHaveAttribute("src", src);
     expect(imageElement).toHaveAttribute("alt", altText);
     expect(imageElement).toHaveAttribute("width", width);
     expect(imageElement).toHaveAttribute("height", height);
+
   });
 });
